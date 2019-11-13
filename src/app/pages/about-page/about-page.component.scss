@@ -1,0 +1,33 @@
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.lower-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .experience-container{
+        width: 40%;
+
+    }
+    .education-container{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .lower-container{
+        .experience-container {
+        width: 90%;
+        }
+        .education-container {
+            width: 90%;
+        }
+    }
+  }

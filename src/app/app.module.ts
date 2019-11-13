@@ -18,6 +18,8 @@ import {MatCardModule} from '@angular/material/card';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ProfileHeroComponent } from './components/profile-hero/profile-hero.component';
 import { BrandLinkComponent } from './components/brand-link/brand-link.component';
+import { ExperienceItemComponent } from './components/experience-item/experience-item.component';
+import { ExperienceListComponent } from './components/experience-list/experience-list.component';
 
 
 
@@ -28,7 +30,9 @@ import { BrandLinkComponent } from './components/brand-link/brand-link.component
     HomeComponent,
     AboutPageComponent,
     ProfileHeroComponent,
-    BrandLinkComponent
+    BrandLinkComponent,
+    ExperienceItemComponent,
+    ExperienceListComponent
   ],
   imports: [
     BrowserModule,

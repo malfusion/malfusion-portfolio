@@ -1,0 +1,22 @@
+.title{
+
+}
+.subtitle{
+    margin-bottom: 6px;
+}
+.mat-list-item{
+    height: unset;
+    margin-top: 5px;
+}
+
+.desc-item{
+    color: #444;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.desc-item::before {
+    content: "\2022";
+    position: absolute;
+
+}
