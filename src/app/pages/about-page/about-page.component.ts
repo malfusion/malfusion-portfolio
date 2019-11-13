@@ -81,7 +81,7 @@ export class AboutPageComponent implements OnInit {
     from: 'AUG 2010',
     to: 'AUG 2014',
     description: [
-      `Final year thesis on "Feature Selection on Medical Dataset".`
+      `Final year thesis on "Feature Selection on Medical Dataset"`
     ]
     }];
   }

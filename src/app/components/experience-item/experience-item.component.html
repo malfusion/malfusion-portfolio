@@ -1,7 +1,7 @@
 <mat-card class="experience-card">
     <mat-card-header> 
         <div _ngcontent-bsq-c233="" mat-card-avatar="">
-                <mat-icon class="circle border" style="padding: 20px; background: #f6f6f6;">work</mat-icon>
+                <mat-icon class="circle border" style="padding: 20px; background: #f6f6f6;">{{icon}}</mat-icon>
         </div>
         
         <div style="margin-left: 10px; display: flex; flex-direction:column; flex-grow: 1;">
@@ -28,7 +28,7 @@
             </mat-list>
         </mat-expansion-panel>
     </mat-card-content>
-    <mat-card-footer style="display: flex; justify-content: center;" (click)="expandDescription()">
+    <mat-card-footer *ngIf="experience.description.length>1" style="display: flex; justify-content: center;" (click)="expandDescription()">
         <span class="toggle" [ngClass]="{'opened': expanded}" ></span>
     </mat-card-footer>
 </mat-card>

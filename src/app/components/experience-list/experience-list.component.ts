@@ -9,6 +9,7 @@ import { Experience } from '../experience-item/experience-item.component';
 export class ExperienceListComponent implements OnInit {
   @Input() title: string;
   @Input() experiences: Experience[] = []
+  @Input() icon: string;
 
   constructor() {                     
                        

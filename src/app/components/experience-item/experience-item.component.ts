@@ -16,7 +16,9 @@ export interface Experience {
 })
 export class ExperienceItemComponent implements OnInit {
   @Input() experience: Experience;
+  @Input() icon: string;
   expanded: boolean = false;
+  
   constructor() { }
 
   ngOnInit() {

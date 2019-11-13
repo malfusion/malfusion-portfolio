@@ -23,13 +23,15 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span class="title">M A L F U S I O N</span>
+      <span class="">
+          <a class="title unstyled-link" routerLink="">M A L F U S I O N</a>
+        </span>
       <span class="toolbar-links">
-        <div class="toolbar-link" routerLink="/about">ABOUT</div>
-        <div class="toolbar-link" routerLink="/work">WORK</div>
-        <div class="toolbar-link" routerLink="/projects">PROJECTS</div>
-        <div class="toolbar-link"><a href="https://learnings.malfusion.com" target="_blank">LEARNING</a></div>
-        <div class="toolbar-link" routerLink="/contact">CONTACT ME</div>
+          <a class="toolbar-link unstyled-link" routerLink="/about">ABOUT</a>
+          <a class="toolbar-link unstyled-link" routerLink="/work">WORK</a>
+          <a class="toolbar-link unstyled-link" routerLink="/projects">PROJECTS</a>
+          <a class="toolbar-link unstyled-link" href="https://learnings.malfusion.com">LEARNING</a>
+          <a class="toolbar-link unstyled-link" routerLink="/contact">CONTACT ME</a>
       </span>
     </mat-toolbar>
     <router-outlet></router-outlet>
