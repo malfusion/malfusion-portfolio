@@ -1,5 +1,8 @@
 <div class="list-title">
-    <span class="title-text">E X P E R I E N C E</span>
+    <span class="title-text">{{title}}</span>
 </div>
 
-<app-experience-item *ngFor="let experience of experiences" [experience]="experience"></app-experience-item>
+<div class="experience-container" *ngFor="let experience of experiences">
+        <app-experience-item [experience]="experience"></app-experience-item>
+        
+</div>

@@ -16,10 +16,16 @@ export interface Experience {
 })
 export class ExperienceItemComponent implements OnInit {
   @Input() experience: Experience;
+  expanded: boolean = false;
   constructor() { }
 
   ngOnInit() {
     
+
+  }
+
+  expandDescription(){
+    this.expanded = !this.expanded
   }
 
 }

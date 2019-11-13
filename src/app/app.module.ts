@@ -15,6 +15,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ProfileHeroComponent } from './components/profile-hero/profile-hero.component';
 import { BrandLinkComponent } from './components/brand-link/brand-link.component';
@@ -45,7 +48,9 @@ import { ExperienceListComponent } from './components/experience-list/experience
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
