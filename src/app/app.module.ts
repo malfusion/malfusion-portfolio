@@ -23,6 +23,8 @@ import { ProfileHeroComponent } from './components/profile-hero/profile-hero.com
 import { BrandLinkComponent } from './components/brand-link/brand-link.component';
 import { ExperienceItemComponent } from './components/experience-item/experience-item.component';
 import { ExperienceListComponent } from './components/experience-list/experience-list.component';
+import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 
 
@@ -35,7 +37,9 @@ import { ExperienceListComponent } from './components/experience-list/experience
     ProfileHeroComponent,
     BrandLinkComponent,
     ExperienceItemComponent,
-    ExperienceListComponent
+    ExperienceListComponent,
+    ProjectsPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

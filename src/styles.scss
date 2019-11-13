@@ -25,3 +25,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .circle {
     border-radius: 50%;
 }
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}

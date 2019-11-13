@@ -16,6 +16,14 @@
   z-index: 1;
   display: flex;
   justify-content: space-between;
+
+}
+
+.mat-drawer-inner-container{
+  .mat-toolbar{
+    font-weight: 200;
+    font-size: 1rem;
+  }
 }
 
 .title{
@@ -25,12 +33,12 @@
 .toolbar-links{
   display: flex;
   flex-direction: row;
+  display: block;
 
   .toolbar-link{
     font-weight: 200;
     font-size: 1rem;
     margin: auto 10px auto 10px;
-
   }
 }
 
@@ -41,4 +49,16 @@
   &:hover { text-decoration: none; color: inherit; }
   &:focus { text-decoration: none; color: inherit; }
   &:hover, &:active { text-decoration: none; color: inherit; }
+}
+
+@media only screen and (max-width: 600px) {
+  .toolbar-links{
+      display: none;
+  }
+  .title-container{
+    margin-right: auto;
+    margin-left: auto;
+    left: -16px;
+    position: relative;
+  }
 }

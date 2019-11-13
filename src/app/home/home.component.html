@@ -4,13 +4,12 @@
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="false">
       <!-- [opened]="(isHandset$ | async) === false"> -->
-    <mat-toolbar>Menu</mat-toolbar>
+    <mat-toolbar>M A L F U S I O N</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item routerLink="/about">ABOUT</a>
-      <a mat-list-item routerLink="/work">WORK</a>
-      <a mat-list-item routerLink="/projects">PROJECTS</a>
+      <a mat-list-item routerLink="about">ABOUT</a>
+      <a mat-list-item routerLink="projects">PROJECTS</a>
       <a mat-list-item href="https://learnings.malfusion.com">LEARNING</a>
-      <a mat-list-item routerLink="/contact">CONTACT ME</a>
+      <a mat-list-item routerLink="contact">CONTACT ME</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -23,15 +22,14 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span class="">
-          <a class="title unstyled-link" routerLink="">M A L F U S I O N</a>
-        </span>
+      <span class="title-container">
+        <a class="title unstyled-link" routerLink="">M A L F U S I O N</a>
+      </span>
       <span class="toolbar-links">
-          <a class="toolbar-link unstyled-link" routerLink="/about">ABOUT</a>
-          <a class="toolbar-link unstyled-link" routerLink="/work">WORK</a>
-          <a class="toolbar-link unstyled-link" routerLink="/projects">PROJECTS</a>
+          <a class="toolbar-link unstyled-link" routerLink="about">ABOUT</a>
+          <a class="toolbar-link unstyled-link" routerLink="projects">PROJECTS</a>
           <a class="toolbar-link unstyled-link" href="https://learnings.malfusion.com">LEARNING</a>
-          <a class="toolbar-link unstyled-link" routerLink="/contact">CONTACT ME</a>
+          <a class="toolbar-link unstyled-link" routerLink="contact">CONTACT ME</a>
       </span>
     </mat-toolbar>
     <router-outlet></router-outlet>
