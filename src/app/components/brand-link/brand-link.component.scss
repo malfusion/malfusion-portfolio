@@ -1,0 +1,29 @@
+.brand-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit;
+    &:visited { text-decoration: none; color: inherit; }
+    &:hover { text-decoration: none; color: inherit; }
+    &:focus { text-decoration: none; color: inherit; }
+    &:hover, &:active { text-decoration: none; color: inherit; }
+}
+
+.brand-logo{
+    height: 30px;
+}
+
+.brand-name{
+    margin-left: 5px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in;
+
+    &:hover{
+        opacity: 1;
+    }
+    &:visited, &:active{
+        text-decoration: none;
+    }
+
+}
