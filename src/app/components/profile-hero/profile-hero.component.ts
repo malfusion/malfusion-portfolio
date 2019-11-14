@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileHeroComponent implements OnInit {
 
+  profilePhotos = [
+    'assets/profile.jpg',
+    'assets/profile2.jpg',
+    'assets/profile3.jpg'
+  ]
+  currPhoto = 0
   constructor() { }
 
   ngOnInit() {
+    this.currPhoto = Math.floor(Math.random()*this.profilePhotos.length)
+  }
+
+  nextPic(){
+    this.currPhoto = (this.currPhoto+1) % this.profilePhotos.length
   }
 
 }

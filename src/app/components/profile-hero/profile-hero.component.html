@@ -1,6 +1,6 @@
 <mat-card class="hero-card">
         <div class="first-child-dummy"></div>
-        <img class="hero-photo border circle" mat-card-image src="assets/profile.jpg" alt="Profile photo">
+        <img class="hero-photo border circle" mat-card-image [src]="profilePhotos[currPhoto]" alt="Profile photo" (click)="nextPic()">
         <mat-card-header> 
             <mat-card-title class="hero-line">Jude Naveen Raj Ilango</mat-card-title>
             <mat-card-subtitle class="subhero-line-1">CoFounder of Arktek</mat-card-subtitle>
