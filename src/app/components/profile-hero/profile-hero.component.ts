@@ -10,7 +10,8 @@ export class ProfileHeroComponent implements OnInit {
   profilePhotos = [
     'assets/profile.jpg',
     'assets/profile2.jpg',
-    'assets/profile3.jpg'
+    'assets/profile3.jpg',
+    'assets/profile6.jpg'
   ]
   currPhoto = 0
   constructor() { }
