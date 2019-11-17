@@ -4,14 +4,14 @@
                 <mat-icon class="circle border" style="padding: 20px; background: #f6f6f6;">{{icon}}</mat-icon>
         </div>
         
-        <div style="margin-left: 10px; display: flex; flex-direction:column; flex-grow: 1;">
-                <mat-card-subtitle class="subtitle" style="font-size: 16px;">{{experience.from}} - {{experience.to}}</mat-card-subtitle>
+        <div class="experience-overview">
+                <mat-card-subtitle class="subtitle">{{experience.from}} - {{experience.to}}</mat-card-subtitle>
                 <mat-card-title class="title">{{experience.title}}</mat-card-title>
-                <mat-card-subtitle class="subtitle" style="font-size: 16    px;">{{experience.company}}</mat-card-subtitle>
+                <mat-card-subtitle class="subtitle">{{experience.company}}</mat-card-subtitle>
         </div>
     </mat-card-header>
     <mat-card-content>
-        <mat-list class="" style="padding-left: 25px;">
+        <mat-list class="desc-list top-desc-list">
             <mat-list-item class="desc-item" *ngFor="let desc of [experience.description[0]]">
                 <span class=""> {{desc}} </span>
             </mat-list-item>
@@ -20,8 +20,7 @@
                 </mat-list-item> -->
         </mat-list>
         <mat-expansion-panel [expanded]="expanded" style="box-shadow: none;">
-            
-            <mat-list>
+            <mat-list class="desc-list">
                 <mat-list-item class="desc-item" *ngFor="let desc of experience.description.slice(1)">
                     <span> {{desc}} </span>
                 </mat-list-item>
