@@ -25,6 +25,7 @@ import { ExperienceItemComponent } from './components/experience-item/experience
 import { ExperienceListComponent } from './components/experience-list/experience-list.component';
 import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 
 
@@ -39,7 +40,8 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     ExperienceItemComponent,
     ExperienceListComponent,
     ProjectsPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,

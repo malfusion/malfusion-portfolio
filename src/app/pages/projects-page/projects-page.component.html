@@ -1,8 +1,18 @@
 <div class="page-container">
     <app-profile-hero></app-profile-hero>
     <div class="lower-container">
-            Projects
-        <!-- <div class="education-container"></div> -->
+            <div class="title-container">
+                <div class="list-title">
+                    <span class="title-text">Projects</span>
+                </div>            
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-card-container" *ngFor="let project of projects;">
+                    <app-project-card [project]="project"></app-project-card>
+                </div>
+            </div>
+            
     </div>
 </div>
     

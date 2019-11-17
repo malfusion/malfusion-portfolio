@@ -1,0 +1,19 @@
+<mat-card class="project-card">
+
+    <div class="header-image" *ngIf="project.mediatype == 'image'">
+        <img class="image" mat-card-image [src]="project.mediasrc" alt="Project Image">
+    </div>
+    
+
+    <mat-card-header> 
+    </mat-card-header>
+        <mat-card-title class="title">{{project.title}}</mat-card-title>
+        
+    <mat-card-content>
+        {{project.description}}
+    </mat-card-content>
+    
+    <mat-card-footer></mat-card-footer> 
+</mat-card>
+
+

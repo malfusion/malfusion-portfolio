@@ -13,11 +13,11 @@ export class ProfileHeroComponent implements OnInit {
     'assets/profile3.jpg',
     'assets/profile6.jpg'
   ]
-  currPhoto = 0
+  currPhoto = 3
   constructor() { }
 
   ngOnInit() {
-    this.currPhoto = Math.floor(Math.random()*this.profilePhotos.length)
+    // this.currPhoto = Math.floor(Math.random()*this.profilePhotos.length)
   }
 
   nextPic(){
