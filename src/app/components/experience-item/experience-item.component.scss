@@ -6,14 +6,14 @@
 
     .mat-card-avatar{
         height: 100%;
-        width: auto;
+        width: auto;   
+    }
+    .mat-card-header-text{
+        display: none;
     }
 }
 
 
-::ng-deep .mat-card-header-text{
-    display: none;
-}
 
 .experience-overview{
     margin-left: 10px;
@@ -82,6 +82,7 @@
     }
 }
 
+
 @media only screen and (max-width: 600px) {
     .top-desc-list {
         margin-top: 20px;
@@ -90,7 +91,6 @@
        padding: 0px;
 
        .desc-item{
-           
             .mat-list-item-content{
                 padding-right: 0px;
             }
