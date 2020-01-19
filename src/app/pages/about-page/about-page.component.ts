@@ -15,25 +15,28 @@ export class AboutPageComponent implements OnInit {
     this.work = [{
         title: 'Founder and Lead Developer',
         company: 'Arktek Business Solutions Pvt Ltd, India',
-        from: 'JUN 2016',
+        from: 'AUG 2015',
         to: 'AUG 2019',
         technologies: ['AngularJS' ,'Node.js', 'MongoDB', 'CouchDB', 'Redis', 'RabbitMQ', 'NativeScript', 'Elasticsearch'],
         description: [
         `Founded a software development company, focused on helping industries transition from legacy software to modern solutions`,
         `Focused efforts on innovating the first generation of offline-first enterprise software solutions,for use in remote areas,low connectivity zones and internet dead zones, where fault tolerance towards data synchronisation errors are crucial`,
-        `Independently architected and developed an “Enterprise Warehouse Audit Management System”, with a potential client base of over 1000 Top Food and Beverage Fast-Moving Consumer Goods (FnB-FMCG) Manufacturers in the Middle East region`,
+        `Architected and developed one of a kind offline-first “Enterprise Warehouse Audit Management System” using full stack Javascript, with a potential client base of over 1000 Top Food and Beverage Fast-Moving Consumer Goods (FnB-FMCG) Manufacturers in the Middle East region`,
         `Utilised a Polyglot Database Architecture to accommodate multiple requirements such as data synchronisation(CouchDB), fine-grained audit permission structures, maintaining horizontal scalability (MongoDB) and efficient searchability (ElasticSearch)`,
-        `Built microservices including, not limited to, Issue Tracker, User/Group Management, Audit Builder, Data Loaders and Mobile Apps.`]
+        `Implemented over 10 microservices (Node.js), 2 frontend user interfaces (Angular), an Android mobile app (Cordova), ETL data processing tools (Python), web security and optimizations`,
+        `Acquired 2 years of on-premise industry experience and software engineering practices such as unit testing, devops and QA`]
         },
         {
-        title: 'Full Stack Web Developer',
+        title: 'Full Stack Engineer',
         company: 'WeatherToFly, United Kingdom',
         from: 'AUG 2018',
-        to: 'AUG 2019',
+        to: 'JUN 2019',
         technologies: ['Angular', 'Node.js', 'MongoDB'],
         description: [
-          `Developed a Responsive Web Application in Angular and Node.js, that assists users in finding the best travel destinations and accommodations based on a proprietary Cost-Weather based ranking algorithm`,
-          `Built a Progressive Web App, allowing offline access to the results of previously performed searches, increasing customer conversion`]
+          `Built Progressive Web App in Typescript using Angular, to help users find flights to hundreds of destinations with the best weather`,
+          `Refactored Node.js backend and optimized code using a caching layer for Weather API responses, reducing API costs by over 50x`,
+          `Derived usage insights from analytics and customer feedback, and incorporated offline access, boosting conversion by over 500%`,
+          `Set up continuous integration and deployment using Git, Netlify and StriderCI, reducing production deployment time to 1 minute`]
         },
         {
         title: 'Full Stack Web Developer',
@@ -42,7 +45,9 @@ export class AboutPageComponent implements OnInit {
         to: 'AUG 2018',
         technologies: ['Angular', 'AngularJS', 'Node.js', 'MongoDB', 'RabbitMQ'],
         description: [
-          `Developed an innovative horizontally-scalable “Realtime Customer-Vendor Messaging and Order Resolution Platform” using MongoDB and RabbitMQ, which utilised a 3-way communication mechanism involving the vendor, customer and the ecommerce company`,
+          `Architected a “Real-time Messaging Platform” in Node.js for 3 way communication between the vendor, customer and the company`,
+          `Coordinated with an offshore team of 4 to integrate with client's authentication backend, via a server-side API to the SQL database`,
+          `Deployed a Websocket cluster backed by Redis Pub/Sub and RabbitMQ, and scaled the platform to 100,000 concurrent users`,
           `Developed two microservices for the company, an “Invoice Generation Service” and a “On-Demand Image Conversion/Delivery Service`]
         },
         {
@@ -52,8 +57,10 @@ export class AboutPageComponent implements OnInit {
         to: 'AUG 2015',
         technologies: ['Java', 'Weblogic Server', 'ActiveMQ', 'Oracle Database'],
         description: [
-          `Designed and prototyped the “Oracle Pod Creation Service”, one of the core components of Oracle’s cloud server provisioning pipeline, which takes care of resource allocation, environment setup, service installations and deployments to a publicly accessible web interface`, 
-          `Implemented Delayed and Repeating Message Triggers functionality, for “Oracle Messaging Cloud Service”, in Java using ActiveMQ`]
+          `Designed the “Oracle Pod Creation Service” in 3 weeks, a crucial component of Oracle’s cloud infrastructure provisioning pipeline`,
+          `Spearheaded team of 2 and launched prototype in 2 months, enabling automated app resource allocation, setup and deployment`,
+          `Implemented 2 features for “Oracle Messaging Service”: Delayed Triggers and Repeating Triggers, in Java using ActiveMQ`,
+          `Conducted 1 month long usability study and use case analysis on using Docker and Kubernetes for “Oracle Task Scheduler Service”`]
         },
         {
         title: 'Intern - Dream Zoo Android',
@@ -72,7 +79,8 @@ export class AboutPageComponent implements OnInit {
     from: 'AUG 2019',
     to: 'MAY 2021',
     description: [
-    `Pursuing a graduate degree Computer Science with a focus on Computer Vision and Deep Learning`
+    `Pursuing a graduate degree Computer Science with a focus on Computer Vision and Deep Learning`,
+    `Current Courses: Programming Languages, Operating Systems, Computer Vision, Algorithms, Big Data Science, Computer Security`
     ]
     },
     {
